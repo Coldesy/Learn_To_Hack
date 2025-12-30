@@ -1,0 +1,16 @@
+Directory:
+mkdir lakshmish //create a new directory
+cd lakshmish //change directory to lakshmish(move inside)
+touch laksh.txt //create a file 
+mv laksh.txt iec2025034.txt //renames the file to my roll no.
+cd .. //move out of directory
+rm -r lakshmish //remove all files in that directory(meaning of -r recursively)
+
+User:
+sudo useradd coldesy // creates a new user
+groups coldesy //checks which groups user belongs to
+sudo usermod -aG admin coldesy // assigns coldesy to admin group ',-a' ensures your current groups dont get deleted 
+groups coldesy //chceck for groups again
+sudo passwd newuser //enter a password for the user
+
+
